@@ -1,5 +1,8 @@
 <?php
 function flatten ($origArray) {
+  /*
+  basic flatten routine
+  */
   $t=[];
   for ($i=0; $i<count($origArray); $i++) {
     if (is_array($origArray[$i])) {
